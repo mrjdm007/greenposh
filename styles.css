@@ -183,6 +183,69 @@ html {
     box-shadow: 0 0 15px white;
 }
 
+/* Home Garden Card Styling */
+#home-garden {
+    width: 60%;
+    margin: auto;
+    background: #222;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+#home-garden:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.info-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Add spacing between cards */
+.spacer {
+    height: 40px;
+}
+
+/* Light blue phone number */
+.phone-link {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.phone-link:hover {
+    text-decoration: underline;
+}
+
+/* Shipping & Delivery Icons */
+.shipping-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.shipping-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shipping-item i {
+    font-size: 24px;
+    color: white;
+}
+
+/* Highlight Experience in About Section */
+#about span {
+    color: lightblue;
+}
 
 
 
